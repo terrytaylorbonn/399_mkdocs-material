@@ -19,19 +19,18 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: TTMaterial for MkDocs
-site_url: https://squidfunk.github.io/mkdocs-material/
-site_author: Martin Donath
+site_name: ZiptieAI docs
+site_url: https://docs4.ziptieai.com/
+site_author: Terry Taylor
 site_description: >-
-  Write your documentation in Markdown and create a professional static site in
-  minutes – searchable, customizable, in 60+ languages, for all devices
+  All about AI stacks (LLMs).
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: terrytaylorbonn/399_mkdocs-material
+repo_url: https://github.com/terrytaylorbonn/399_mkdocs-material
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2025 Martin Donath
+copyright: (none)
 
 # Configuration
 theme:
@@ -182,6 +181,16 @@ not_in_nav: |
 # Page tree
 nav:
   - Home: index.md
+  - AI (LLM) stacks: 
+    - Overview: ai-llm-stacks/ai-llm-stacks.md
+    - docs.ZiptieAI.com sites: ai-llm-stacks/Website-docs.md
+    - Gdrive lab notes: ai-llm-stacks/Gdrive-lab-notes.md
+    - A0 Concepts: ai-llm-stacks/A0-AI-stack-concepts.md
+    - A1a YT demos: ai-llm-stacks/A1-AI-stack-demos.md
+    - A1b YT demo deploys: ai-llm-stacks/A1b-AI-stack-deployments.md
+    - A1c GPT hackathons: ai-llm-stacks/A1c-ChatGPT-hackathons.md
+    - A1d APIs: ai-llm-stacks/APIs.md
+    - A2 AI stack docs: ai-llm-stacks/A2-AI-stack-docs.md
   - Getting started:
     - Installation: getting-started.md
     - Creating your site: creating-your-site.md
