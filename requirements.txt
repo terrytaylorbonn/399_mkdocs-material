@@ -21,7 +21,7 @@
 
 
 mkdocs-material ##############
-
+mkdocs-minify-plugin ##########
 
 # Requirements for core
 jinja2~=3.1
